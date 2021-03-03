@@ -1,0 +1,50 @@
+.name-of-first-headline {
+  display: none;
+}
+.block-items {
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block-cards {
+  width: 270px;
+}
+.firts-headline {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.pgf-list-headline {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--paragraph-text);
+}
+.blocks-of-competence {
+  padding-top: 94px;
+}
+.background-for-svg {
+  background: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.svg-items-main {
+  width: 70px;
+  height: 70px;
+  margin-right: 0px;
+}

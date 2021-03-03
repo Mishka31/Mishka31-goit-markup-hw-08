@@ -1,0 +1,34 @@
+.we-doing-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.img-we-doing {
+  padding-top: 50px;
+}
+.what-we-doing {
+  margin: 0px;
+  /* margin-top: 94px;
+  margin-bottom: 50px; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--mostly-used-color);
+}
+.what-we-doing-img {
+  margin: 0px;
+  padding: 0px;
+  width: 1200px;
+  display: flex;
+  flex-basis: calc(100% / 3);
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.img-items-wwd {
+  height: 294px;
+  margin-left: 30px;
+  margin-top: 30px;
+}

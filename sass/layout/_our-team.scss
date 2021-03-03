@@ -1,0 +1,95 @@
+.our-team {
+  margin: 0px;
+  /* padding-top: 94px; */
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: var(--mostly-used-color);
+  text-align: center;
+}
+.our-team-section {
+  /* height: 648px; */
+  left: 0px;
+  background: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* margin-top: 194px; */
+}
+.each-of-our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--mostly-used-color);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-text);
+  text-align: center;
+  margin-top: 10px;
+  /* margin-bottom: 30px; */
+}
+.card-personal-item {
+  width: 270px;
+  /* height: 368px; */
+  /* left: 215px; */
+  background: var(--claer-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.card-personal {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-links-circle {
+  width: 20px;
+  height: 20px;
+  fill: var(--img-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-links {
+  /* margin: 0px;*/
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+.links-svg {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover svg,
+  &:focus svg {
+    fill: var(--claer-white);
+  }
+  &:hover,
+  &:focus {
+    background-color: var(--navigation-link-focus);
+  }
+}

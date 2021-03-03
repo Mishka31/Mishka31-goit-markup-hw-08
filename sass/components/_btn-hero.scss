@@ -1,0 +1,16 @@
+.btn-hero {
+  border: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--claer-white);
+  cursor: pointer;
+  background: var(--navigation-link-focus);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}

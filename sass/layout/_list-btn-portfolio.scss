@@ -1,0 +1,69 @@
+.btn-nav-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--mostly-used-color);
+  border: 0px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background: var(--navigation-link-focus);
+    color: var(--claer-white);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.button-list {
+  padding: 0px;
+  margin: 0px;
+  /* margin-top: 94px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 611px;
+  /* height: 54px; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.btn1 {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  cursor: pointer;
+}
+.btn2 {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  cursor: pointer;
+}
+.btn3 {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  cursor: pointer;
+}
+.btn4 {
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  cursor: pointer;
+}
+.btn5 {
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  cursor: pointer;
+}
