@@ -4,9 +4,7 @@
 .mail-tel-nav {
   display: none;
 }
-.header {
-  background-color: red;
-}
+
 .burger-bnt,
 .mob-close-bnt {
   background-color: transparent;
@@ -35,14 +33,52 @@
   transform: translateX(-50%) translateY(-100%);
   background-color: powderblue;
   padding: 48px 40px;
+  transition: transform 500ms linear;
 }
 .mobil-menu.is-open {
   transform: translateX(-50%) translateY(0%);
 }
 
 .link {
-}
+  display: block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1, 175;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+  color: #000;
 
+  &:hover,
+  &:focus {
+    color: var(--navigation-link-focus);
+  }
+}
+.mobil-tel-nav {
+  display: block;
+  position: absolute;
+  bottom: 143px;
+}
+.mobil-contacs-link {
+  //   position: absolute;
+  //   bottom: 15px;
+}
+.mobil-phone-link-header {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--navigation-link-focus);
+}
+.mobil-mail-link-header {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+
+  color: var(--paragraph-text);
+}
 // .nav-position {
 //   display: flex;
 // }
