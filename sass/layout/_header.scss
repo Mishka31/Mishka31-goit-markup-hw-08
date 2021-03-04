@@ -8,7 +8,16 @@
   background-color: red;
 }
 .burger-bnt {
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
+.burger-icon {
+  width: 40px;
+  height: 40px;
+  fill: #000;
+}
+
 // .nav-position {
 //   display: flex;
 // }

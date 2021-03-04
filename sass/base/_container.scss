@@ -1,7 +1,6 @@
 .container {
   width: 100%;
   padding: 0 15px;
-  outline: 1px solid red;
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -12,6 +11,11 @@
   }
   @media screen and (min-width: 1200px) {
     width: 1200px;
+  }
+  .header & {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

@@ -50,7 +50,6 @@ img {
 .container {
   width: 100%;
   padding: 0 15px;
-  outline: 1px solid red;
 }
 
 @media screen and (min-width: 480px) {
@@ -70,6 +69,12 @@ img {
   .container {
     width: 1200px;
   }
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .visually-hidden {
@@ -126,6 +131,18 @@ img {
 
 .header {
   background-color: red;
+}
+
+.burger-bnt {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.burger-icon {
+  width: 40px;
+  height: 40px;
+  fill: #000;
 }
 
 .hero-background {
