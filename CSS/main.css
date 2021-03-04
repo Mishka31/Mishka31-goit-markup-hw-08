@@ -116,6 +116,18 @@ img {
   border-radius: 4px;
 }
 
+.navigation-list {
+  display: none;
+}
+
+.mail-tel-nav {
+  display: none;
+}
+
+.header {
+  background-color: red;
+}
+
 .hero-background {
   height: 600px;
   max-width: 1600px;

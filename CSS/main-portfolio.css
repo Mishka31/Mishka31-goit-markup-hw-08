@@ -442,4 +442,16 @@ img {
 .each-card-mg {
   margin-bottom: 0px;
 }
+
+.navigation-list {
+  display: none;
+}
+
+.mail-tel-nav {
+  display: none;
+}
+
+.header {
+  background-color: red;
+}
 /*# sourceMappingURL=main-portfolio.css.map */
