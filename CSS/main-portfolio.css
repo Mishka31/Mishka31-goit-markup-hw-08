@@ -448,14 +448,6 @@ img {
   margin-bottom: 0px;
 }
 
-.navigation-list {
-  display: none;
-}
-
-.mail-tel-nav {
-  display: none;
-}
-
 .burger-bnt,
 .mob-close-bnt {
   background-color: transparent;
@@ -487,7 +479,6 @@ img {
   background-color: #fff;
   padding: 48px 40px;
   transition: transform 500ms linear;
-  border: 1px solid red;
 }
 
 .mobil-menu.is-open {
@@ -572,5 +563,23 @@ img {
   height: 22px;
   right: -10px;
   background-color: var(--navigation-link-focus);
+}
+
+@media screen and (max-width: 767px) {
+  .navigation-list {
+    display: none;
+  }
+  .mail-tel-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .burger-bnt {
+    display: none;
+  }
+  .mobil-menu {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main-portfolio.css.map */
