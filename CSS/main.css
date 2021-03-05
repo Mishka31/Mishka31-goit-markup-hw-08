@@ -1257,6 +1257,7 @@ img {
 .checkbox-agre-with-policy {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 14px;
   line-height: 1.71;
@@ -1285,9 +1286,10 @@ img {
 }
 
 .link-policy {
-  display: block;
+  display: flex;
   margin-left: 4px;
   text-decoration: underline;
+  color: #2196f3;
 }
 
 .order-form-label {
@@ -1297,7 +1299,7 @@ img {
   color: #757575;
 }
 
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 1199px) {
   .modal {
     max-width: 100%;
     overflow: scroll;
