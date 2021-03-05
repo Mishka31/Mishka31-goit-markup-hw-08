@@ -6,9 +6,11 @@
   @media screen and (min-width: 480px) {
     width: 480px;
     margin: 0 auto;
+    height: 60px;
   }
   @media screen and (min-width: 768px) {
     width: 768px;
+    margin: 0 auto;
     .header & {
       display: flex;
       align-items: center;

@@ -17,6 +17,7 @@
 }
 .nav-position {
   justify-content: space-between;
+  align-items: center;
 }
 .mobil-menu {
   position: absolute;
@@ -278,6 +279,19 @@
       background-color: var(--navigation-link-focus);
       border-radius: 2px;
     }
+  }
+}
+
+.navigation-link {
+  color: var(--mostly-used-color);
+  transition: color 250ms var(--time-cubic);
+
+  &:hover,
+  &:focus {
+    color: var(--navigation-link-focus);
+  }
+  .blue-studio {
+    color: var(--navigation-link-focus);
   }
 }
 

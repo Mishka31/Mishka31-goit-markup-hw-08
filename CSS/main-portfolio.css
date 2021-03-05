@@ -58,12 +58,14 @@ img {
   .container {
     width: 480px;
     margin: 0 auto;
+    height: 60px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
   }
   .header .container {
     display: flex;
@@ -471,6 +473,7 @@ img {
 
 .nav-position {
   justify-content: space-between;
+  align-items: center;
 }
 
 .mobil-menu {
@@ -725,5 +728,18 @@ img {
     background-color: var(--navigation-link-focus);
     border-radius: 2px;
   }
+}
+
+.navigation-link {
+  color: var(--mostly-used-color);
+  transition: color 250ms var(--time-cubic);
+}
+
+.navigation-link:hover, .navigation-link:focus {
+  color: var(--navigation-link-focus);
+}
+
+.navigation-link .blue-studio {
+  color: var(--navigation-link-focus);
 }
 /*# sourceMappingURL=main-portfolio.css.map */
