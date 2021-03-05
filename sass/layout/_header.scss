@@ -107,6 +107,69 @@
   .mobil-menu {
     display: none;
   }
+  .navigation {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    border: 1px solid #000;
+
+    justify-content: space-between;
+  }
+  .navigation-list {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: space-evenly;
+    padding: 0px;
+  }
+  .mail-tel-nav {
+  }
+  .mail-link-header {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.166;
+    letter-spacing: 0.02em;
+    color: var(--links-header);
+    fill: var(--links-header);
+
+    &:hover,
+    &:focus {
+      color: var(--navigation-link-focus);
+      fill: var(--navigation-link-focus);
+    }
+  }
+  .phone-link-header {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.166;
+    letter-spacing: 0.02em;
+    color: var(--links-header);
+    margin-top: 10px;
+    fill: var(--links-header);
+
+    & {
+      display: flex;
+      align-items: center;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--navigation-link-focus);
+      fill: var(--navigation-link-focus);
+    }
+  }
+  .item-svg-mail {
+    width: 14px;
+    height: 10px;
+    margin-right: 8px;
+  }
+  .item-svg-tel {
+    width: 10px;
+    height: 14px;
+    margin-right: 8px;
+  }
 }
 // .nav-position {
 //   display: flex;
