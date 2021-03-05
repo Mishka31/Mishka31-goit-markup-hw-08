@@ -24,6 +24,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   color: var(--mostly-used-color);
   background: #ffffff;
 }
@@ -144,7 +145,7 @@ img {
 .mobil-menu {
   position: absolute;
   width: 100%;
-  max-width: 480px;
+  max-width: 100vh;
   height: 100vh;
   top: 0;
   left: 50%;
@@ -179,7 +180,6 @@ img {
 }
 
 .mobil-phone-link-header {
-  font-weight: 500;
   font-size: 34px;
   line-height: 1.176;
   letter-spacing: 0.02em;
@@ -188,7 +188,6 @@ img {
 
 .mobil-mail-link-header {
   display: block;
-  font-weight: 500;
   font-size: 24px;
   line-height: 1.166;
   letter-spacing: 0.02em;
@@ -202,40 +201,25 @@ img {
 }
 
 .mob-networks {
-  font-weight: 500;
   font-size: 18px;
   line-height: 1.222;
   letter-spacing: 0.02em;
   color: var(--navigation-link-focus);
 }
 
-.twitter,
-.instagram,
-.facebook,
-.linkedIn {
-  display: inline-block;
-  position: relative;
-  margin: 10px;
+.mobil-social-network-item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
-.twitter {
-  margin-left: 0px;
-}
-
-.linkedIn {
-  margin-right: 0px;
-}
-
-.twitter:after,
-.instagram:after,
-.facebook:after {
-  position: absolute;
-  content: "";
-  display: inline-block;
-  width: 1px;
-  height: 22px;
-  right: -10px;
-  background-color: var(--navigation-link-focus);
+@media screen and (max-width: 479px) {
+  .mobil-phone-link-header {
+    font-size: 25px;
+  }
+  .mob-networks {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
