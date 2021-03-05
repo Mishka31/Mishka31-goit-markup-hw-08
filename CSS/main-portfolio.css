@@ -487,6 +487,7 @@ img {
   background-color: #fff;
   padding: 48px 40px;
   transition: transform 500ms linear;
+  border: 1px solid red;
 }
 
 .mobil-menu.is-open {
@@ -516,7 +517,7 @@ img {
 .mobil-phone-link-header {
   font-weight: 500;
   font-size: 34px;
-  line-height: 40px;
+  line-height: 1.176;
   letter-spacing: 0.02em;
   color: var(--navigation-link-focus);
 }
@@ -525,7 +526,7 @@ img {
   display: block;
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.166;
   letter-spacing: 0.02em;
   margin-top: 32px;
   color: var(--paragraph-text);
@@ -555,6 +556,10 @@ img {
 
 .twitter {
   margin-left: 0px;
+}
+
+.linkedIn {
+  margin-right: 0px;
 }
 
 .twitter:after,
