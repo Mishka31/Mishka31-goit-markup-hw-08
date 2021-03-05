@@ -84,7 +84,9 @@
   padding-right: 10px;
   margin-right: 10px;
 }
-
+.nav-position {
+  height: 60px;
+}
 @media screen and (max-width: 479px) {
   .mobil-phone-link-header {
     font-size: 25px;
@@ -104,6 +106,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    height: 80px;
+  }
+  .nav-position {
+    height: 80px;
+  }
   .burger-bnt {
     display: none;
   }
@@ -126,6 +134,7 @@
     width: 450px;
     justify-content: space-evenly;
     padding: 0px;
+    margin-bottom: 0px;
   }
   .mail-link-header {
     font-weight: 500;
@@ -185,6 +194,14 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .header {
+    height: 80px;
+    // display: block;
+    border-bottom: 1px solid #ececec;
+    // margin-left: auto;
+    // margin-right: auto;
+    // padding-bottom: 15px;
+  }
   .navigation {
     font-weight: 500;
     font-size: 14px;

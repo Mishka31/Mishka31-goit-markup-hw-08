@@ -58,7 +58,6 @@ img {
   .container {
     width: 480px;
     margin: 0 auto;
-    height: 60px;
   }
 }
 
@@ -77,6 +76,8 @@ img {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -220,6 +221,10 @@ img {
   margin-right: 10px;
 }
 
+.nav-position {
+  height: 60px;
+}
+
 @media screen and (max-width: 479px) {
   .mobil-phone-link-header {
     font-size: 25px;
@@ -239,6 +244,12 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    height: 80px;
+  }
+  .nav-position {
+    height: 80px;
+  }
   .burger-bnt {
     display: none;
   }
@@ -259,6 +270,7 @@ img {
     width: 450px;
     justify-content: space-evenly;
     padding: 0px;
+    margin-bottom: 0px;
   }
   .mail-link-header {
     font-weight: 500;
@@ -315,6 +327,10 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .header {
+    height: 80px;
+    border-bottom: 1px solid #ececec;
+  }
   .navigation {
     font-weight: 500;
     font-size: 14px;
@@ -456,6 +472,18 @@ img {
     max-width: 768px;
     height: 400px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images-main/bg-tablet.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-background {
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images-main/background-hero.jpg);
+    background-position: center;
+    background-size: cover;
   }
 }
 
