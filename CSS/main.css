@@ -836,16 +836,6 @@ img {
   text-align: center;
 }
 
-.card-personal-item {
-  width: 270px;
-  /* height: 368px; */
-  /* left: 215px; */
-  background: var(--claer-white);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  margin: 15px;
-}
-
 .each-of-our-team {
   font-weight: 500;
   font-size: 16px;
@@ -876,14 +866,10 @@ img {
 }
 
 .social-links {
-  /* margin: 0px;*/
   padding: 0px;
   display: flex;
-  justify-content: space-between;
-  margin-right: 32px;
-  margin-left: 32px;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .links-svg {
@@ -912,15 +898,53 @@ img {
   justify-content: center;
 }
 
+.card-personal-item {
+  max-width: 450px;
+  /* height: 368px; */
+  /* left: 215px; */
+  background: var(--claer-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .card-personal-item {
+    max-width: 450px;
+    /* height: 368px; */
+    /* left: 215px; */
+    background: var(--claer-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .card-personal {
     max-width: 768;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+  .our-team {
+    padding-bottom: 45px;
   }
   .card-personal-container {
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-personal-item {
+    max-height: 536px;
+    max-width: 354px;
+    background: var(--claer-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 15px;
   }
 }
 
@@ -941,6 +965,13 @@ img {
   .our-team {
     padding-top: 94px;
     padding-bottom: 50px;
+  }
+  .card-personal-item {
+    max-width: 270px;
+    background: var(--claer-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 15px;
   }
 }
 
