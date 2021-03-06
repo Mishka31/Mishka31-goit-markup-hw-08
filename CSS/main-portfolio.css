@@ -29,6 +29,10 @@ body {
   background: #ffffff;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 li {
   list-style-type: none;
 }

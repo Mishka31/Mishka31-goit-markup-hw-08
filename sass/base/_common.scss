@@ -12,6 +12,9 @@ body {
   color: var(--mostly-used-color);
   background: #ffffff;
 }
+body.modal-open {
+  overflow: hidden;
+}
 
 li {
   list-style-type: none;
