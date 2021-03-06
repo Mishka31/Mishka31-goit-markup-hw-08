@@ -1198,7 +1198,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 380px) {
   .clients {
     padding: 0px;
   }
@@ -1206,37 +1206,52 @@ img {
     display: block;
   }
   .border-for-logo-clients {
-    justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 381px) {
+  .svg-list-clients {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .border-for-logo-clients {
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
   }
 }
 
 @media screen and (min-width: 480px) {
   .svg-list-clients {
-    width: 490px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    max-width: 470px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   .border-list {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .border-for-logo-clients {
     width: 210px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .svg-list-clients {
-    width: 768px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     justify-content: center;
     justify-items: center;
+    flex-wrap: wrap;
   }
   .title-clients {
     margin-top: 105px;
@@ -1251,7 +1266,7 @@ img {
     width: 170px;
   }
   .svg-list-clients {
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
