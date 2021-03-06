@@ -25,23 +25,72 @@
                 </nav>
                 <ul class="mail-tel-nav">
                     <li class="svg-link">
-                        <a class="mail-link-header" href="mailto:info@devstudio.com"><svg width="16" height="12" class="item-svg-mail-tel">
+                        <a class="mail-link-header" href="mailto:info@devstudio.com"><svg width="16" height="12" class="item-svg-mail">
                                 <use href="./sprite.svg#icon-mail">
                                 </use>
                             </svg>
                             info@devstudio.com
                         </a>
                     </li>
-                    <li><a class="phone-link-header" href="tel:+380961111111"><svg width="10" height="16" class="item-svg-mail-tel">
+                    <li class="svg-link"><a class="phone-link-header" href="tel:+380961111111"><svg width="10" height="16"
+                                class="item-svg-tel">
                                 <use href="./sprite.svg#icon-phone"></use>
                             </svg>
-                            +380961111111</a></li>
+                            +38 096 111 11 11</a></li>
                 </ul>
+                <button type="button" class="burger-bnt" data-menu-button>
+                    <svg class="burger-icon">
+                        <use href="./sprite.svg#burger-icon"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="mobil-menu" data-menu>
+                <button type="button" class="mob-close-bnt" data-menu-close>
+                    <svg class="close-icon">
+                        <use href="./sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu-nav list">
+                    <li class="mobile-menu-nav-item">
+                        <a href="" class="mobile-menu-nav-links link">Студия</a>
+                    </li>
+                    <li class="mobile-menu-nav-item">
+                        <a href="./portfolio.html" class="mobile-menu-nav-links link">Портфолио</a>
+                    </li>
+                    <li class="mobile-menu-nav-item">
+                        <a href="" class="mobile-menu-nav-links link">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="mobil-tel-nav">
+                    <li class="mobil-contacs-link">
+                        <a class="mobil-phone-link-header" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                    <li class="mobil-contacs-link">
+                        <a class="mobil-mail-link-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <ul class="mobil-socil-network-list">
+                        <li class="mobil-social-network-item">
+                            <a href="#" class="mob-networks twitter">Twitter</a>
+                        </li>
+                        <li class="mobil-social-network-item">
+                            <a href="#" class="mob-networks instagram">Instagram</a>
+                        </li>
+                        <li class="mobil-social-network-item">
+                            <a href="#" class="mob-networks facebook">Facebook</a>
+                        </li>
+                        <li class="mobil-social-network-item">
+                            <a href="#" class="mob-networks linkedIn">LinkedIn</a>
+                        </li>
+                    </ul>
+                </ul>
+            
             </div>
         </header>
     <main>  
         <section class="main-portfolio">
+
             <!--Список кнопок-->
+
             <ul class="button-list">
                 <li><button class="btn-nav-portfolio btn1" type="button">Все</button></li>
                 <li><button class="btn-nav-portfolio btn2" type="button">Веб-сайты</button></li>
@@ -49,8 +98,10 @@
                 <li><button class="btn-nav-portfolio btn4" type="button">Дизайн</button></li>
                 <li><button class="btn-nav-portfolio btn5" type="button">Маркетинг</button></li>
             </ul>
+
             <!-- Список изображений  -->
-            <div class="container">
+            
+            <div class="container cards-of-porfolio-cont">
                 <ul class="cards-of-porfolio">
                     <li class="each-card">
                         <a class="hover-focus-for-cards" href="#">
@@ -245,5 +296,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/mobile-menu.js"></script>
     </body>
 </html>

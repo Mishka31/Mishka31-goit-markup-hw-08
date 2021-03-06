@@ -58,6 +58,7 @@
 }
 .subscribe-form {
   margin-top: 60px;
+  justify-content: center;
   // margin-left: 93px;
 }
 .mail-link-footer {
@@ -93,32 +94,36 @@
 }
 
 .social-links-circles {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   fill: var(--claer-white);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icon-send {
+  margin-left: 10px;
+}
 
 .subscribe-btn {
-  margin: 0px;
   width: 200px;
-  height: 50px;
+  min-height: 50px;
   margin-top: 20px;
   background: var(--navigation-link-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-size: 16px;
-  line-height: 1.876;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.875;
   letter-spacing: 0.06em;
-  padding-left: 29px;
   border: 0px;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* .label-mail-footer {
-} */
+.order-form-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .input-mail-footer {
   // display: block;
   width: 100%;
@@ -359,10 +364,4 @@
 // }
 // .subscribe-form {
 //   margin-left: 93px;
-// }
-
-// .icon-send {
-//   width: 24px;
-//   height: 24px;
-//   margin-left: 10px;
 // }
