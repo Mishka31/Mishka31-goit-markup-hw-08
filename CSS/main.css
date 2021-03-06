@@ -575,6 +575,7 @@ img {
 }
 
 .we-doing-section {
+  display: none;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -584,6 +585,7 @@ img {
 }
 
 .what-we-doing {
+  display: none;
   margin: 0px;
   /* margin-top: 94px;
   margin-bottom: 50px; */
@@ -611,6 +613,15 @@ img {
   height: 294px;
   margin-left: 30px;
   margin-top: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .we-doing-section {
+    display: block;
+  }
+  .what-we-doing {
+    display: block;
+  }
 }
 
 .footer {
