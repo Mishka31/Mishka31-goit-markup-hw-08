@@ -139,25 +139,56 @@
             <div class="container img-we-doing">
                 <ul class="what-we-doing-img">
                     <li class="img-items-wwd">
-                        <div>
-                        <img src="./images-main/box1.jpg" alt="Computer" width="370" height="294"></li>
+                        <div class="we-doing-card">
+                            <picture>
+                                <source srcset="./images-main/box1-desktop.webp 1x, ./images-main/box1-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" type="image/webp">
+                                <source srcset="./images-main/box1-desktop.jpg 1x, ./images-main/box1-desktop@2x.jpg 2x" 
+                                media="(min-width: 1200px)">
+                                <img src="./images-main/box1-desktop.jpg" 1x alt="Computer">
+                            </picture>
                             <div class="section-text-we-doing">
                                 <p class="text-we-doing">Десктопные приложения</p>
                             </div>
-                        /div>
-                        <li class="img-items-wwd">
-                        <img src="./images-main/box2.jpg" alt="Phone" width="370"></li>
+                        </div>
+                    </li>
                     <li class="img-items-wwd">
-                        <img src="./images-main/box3.jpg" alt="Tablet" width="370"></li>
+                        <div class="we-doing-card">
+                            <picture>
+                                <source srcset="./images-main/box2-desktop.webp 1x, ./images-main/box2-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" type="image/webp">
+                                <source srcset="./images-main/box2-desktop.jpg 1x, ./images-main/box2-desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                                <img src="./images-main/box2-desktop.jpg" alt="Phone">
+                            </picture>
+                            <div class="section-text-we-doing">
+                                <p class="text-we-doing">Мобильные приложения></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="img-items-wwd">
+                        <div class="we-doing-card">
+                            <picture>
+                                <source srcset="./images-main/box3-desktop.webp 1x, ./images-main/box3-desktop@2x.webp 2x" 
+                                media="(min-width: 1200px)" type="image/webp">                          
+                                <source srcset="./images-main/box3-desktop.jpg 1x, ./images-main/box3-desktop@2x.jpg 2x" 
+                                media="(min-width: 1200px)">
+                                <img src="./images-main/box3-desktop.jpg" alt="Tablet">
+                            </picture>
+                            <div class="section-text-we-doing">
+                                 <p class="text-we-doing">Дизайнерские решения</p>
+                             </div>
+                         </div>
+                    </li>
                 </ul>
             </div>
         </section>
 
                     <!-- OUR TEAM -->
 
-        <!-- <section class="our-team-section">
+        <section class="our-team-section">
             <h2 class="our-team">Наша команда</h2>
-                <div class="container">
+                <div class="container card-personal-container">
                     <ul class="card-personal">
                         <li class="card-personal-item">
                             <img src="./images-main/Igor.jpg" alt="Igor" width="270">
@@ -301,7 +332,7 @@
                         </li>
                     </ul>
                 </div>
-        </section> -->
+        </section>
 
                     <!-- CLIENTS -->
 
