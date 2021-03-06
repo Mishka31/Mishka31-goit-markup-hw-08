@@ -1,11 +1,9 @@
 .footer {
-  left: 0px;
-  background: var(--hero-footer-background);
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: var(--hero-footer-background);
 }
+
 .logo-word-footer {
   font-family: Raleway;
   font-style: normal;
@@ -25,13 +23,6 @@
   color: var(--claer-white);
   margin-top: 20px;
 }
-.mail-link-footer {
-  &:hover,
-  &:focus {
-    color: var(--navigation-link-focus);
-  }
-}
-
 .mail-link-footer,
 .phone-link-footer {
   font-weight: normal;
@@ -52,20 +43,6 @@
 .phone-container {
   margin-top: 9px;
 }
-.join {
-  display: block;
-  width: 206px;
-  /* height: 80px; */
-  margin-left: 70px;
-}
-.join-socials {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-}
-.join-contacts {
-  display: flex;
-}
 .title-join {
   font-family: Roboto;
   font-style: normal;
@@ -76,7 +53,25 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0px;
+  // margin-top: 20px;
   margin-bottom: 20px;
+}
+.subscribe-form {
+  margin-top: 60px;
+  // margin-left: 93px;
+}
+.mail-link-footer {
+  &:hover,
+  &:focus {
+    color: var(--navigation-link-focus);
+  }
+}
+.join {
+  padding-top: 60px;
+}
+.join-socials {
+  display: flex;
+  justify-content: center;
 }
 .social-links-items {
   margin-right: 10px;
@@ -103,14 +98,12 @@
   fill: var(--claer-white);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-subscribe {
-  display: flex;
-}
+
 .subscribe-btn {
   margin: 0px;
   width: 200px;
   height: 50px;
-
+  margin-top: 20px;
   background: var(--navigation-link-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -127,8 +120,8 @@
 /* .label-mail-footer {
 } */
 .input-mail-footer {
-  display: block;
-  width: 358px;
+  // display: block;
+  width: 100%;
   height: 50px;
   background: var(--hero-footer-background);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -146,12 +139,230 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.subscribe-form {
-  margin-left: 93px;
+.join-contacts {
+  display: block;
+  text-align: center;
 }
 
-.icon-send {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
+@media screen and (min-width: 480px) {
+  .join-contacts {
+    // display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .join {
+    // align-items: center;
+    padding-top: 0px;
+  }
+  .input-mail-footer {
+    width: 100%;
+  }
+  .title-join {
+    margin-top: 60px;
+  }
 }
+@media screen and (min-width: 768px) {
+  .join-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .join {
+    // align-items: center;
+    padding-top: 0px;
+  }
+  .input-mail-footer {
+    width: 450px;
+  }
+  .title-join {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .join-contacts {
+    display: flex;
+    align-items: center;
+  }
+  .join {
+    text-align: start;
+    padding-top: 0px;
+    margin-left: 70px;
+  }
+  .subscribe-btn {
+    margin: 0px;
+  }
+  .input-mail-footer {
+    width: 358px;
+  }
+  .title-join {
+    margin-top: 0px;
+  }
+  .subscribe-form {
+    margin-top: 0;
+    text-align: start;
+    margin-left: 93px;
+  }
+  .footer-subscribe {
+    display: flex;
+  }
+  .footer-sub .footer {
+    align-items: center;
+  }
+}
+// .footer {
+//   left: 0px;
+//   background: var(--hero-footer-background);
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+// }
+// .logo-word-footer {
+//   font-family: Raleway;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 26px;
+//   line-height: 1.192;
+//   letter-spacing: 0.03em;
+//   color: var(--claer-white);
+// }
+// .addres-company {
+//   font-family: Roboto;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.714;
+//   letter-spacing: 0.03em;
+//   color: var(--claer-white);
+//   margin-top: 20px;
+// }
+// .mail-link-footer {
+//   &:hover,
+//   &:focus {
+//     color: var(--navigation-link-focus);
+//   }
+// }
+
+// .mail-link-footer,
+// .phone-link-footer {
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 1.714;
+//   letter-spacing: 0.03em;
+//   color: rgba(255, 255, 255, 0.6);
+//   transition: color 250ms var(--time-cubic);
+//   &:hover,
+//   &:focus {
+//     color: var(--navigation-link-focus);
+//   }
+// }
+
+// .mail-container {
+//   margin-top: 9px;
+// }
+// .phone-container {
+//   margin-top: 9px;
+// }
+// .join {
+//   display: block;
+//   width: 206px;
+//   /* height: 80px; */
+//   margin-left: 70px;
+// }
+// .join-socials {
+//   display: flex;
+//   margin: 0px;
+//   padding: 0px;
+// }
+// .join-contacts {
+//   display: flex;
+// }
+// .title-join {
+//   font-family: Roboto;
+//   font-style: normal;
+//   font-weight: 700;
+//   color: var(--claer-white);
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+//   margin: 0px;
+//   margin-bottom: 20px;
+// }
+// .social-links-items {
+//   margin-right: 10px;
+//   /* transition:  250ms var(--time-cubic); */
+// }
+// .join-links-svg {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 44px;
+//   height: 44px;
+//   border-radius: 50%;
+//   background-color: rgba(255, 255, 255, 0.1);
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     background-color: var(--navigation-link-focus);
+//   }
+// }
+
+// .social-links-circles {
+//   width: 20px;
+//   height: 20px;
+//   fill: var(--claer-white);
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+// .footer-subscribe {
+//   display: flex;
+// }
+// .subscribe-btn {
+//   margin: 0px;
+//   width: 200px;
+//   height: 50px;
+
+//   background: var(--navigation-link-focus);
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   border-radius: 4px;
+//   font-size: 16px;
+//   line-height: 1.876;
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+//   padding-left: 29px;
+//   border: 0px;
+//   color: #ffffff;
+// }
+// /* .label-mail-footer {
+// } */
+// .input-mail-footer {
+//   display: block;
+//   width: 358px;
+//   height: 50px;
+//   background: var(--hero-footer-background);
+//   border: 1px solid rgba(255, 255, 255, 0.3);
+//   box-sizing: border-box;
+//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+//   border-radius: 4px;
+//   margin-right: 12px;
+//   padding-left: 16px;
+//   color: var(--claer-white);
+
+//   &:focus {
+//     outline: none;
+//     border: 1px solid var(--navigation-link-focus);
+//     border-radius: 4px;
+//     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+// }
+// .subscribe-form {
+//   margin-left: 93px;
+// }
+
+// .icon-send {
+//   width: 24px;
+//   height: 24px;
+//   margin-left: 10px;
+// }

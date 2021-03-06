@@ -113,12 +113,9 @@ img {
 }
 
 .footer {
-  left: 0px;
-  background: var(--hero-footer-background);
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: var(--hero-footer-background);
 }
 
 .logo-word-footer {
@@ -140,10 +137,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--claer-white);
   margin-top: 20px;
-}
-
-.mail-link-footer:hover, .mail-link-footer:focus {
-  color: var(--navigation-link-focus);
 }
 
 .mail-link-footer,
@@ -170,23 +163,6 @@ img {
   margin-top: 9px;
 }
 
-.join {
-  display: block;
-  width: 206px;
-  /* height: 80px; */
-  margin-left: 70px;
-}
-
-.join-socials {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-}
-
-.join-contacts {
-  display: flex;
-}
-
 .title-join {
   font-family: Roboto;
   font-style: normal;
@@ -198,6 +174,23 @@ img {
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 20px;
+}
+
+.subscribe-form {
+  margin-top: 60px;
+}
+
+.mail-link-footer:hover, .mail-link-footer:focus {
+  color: var(--navigation-link-focus);
+}
+
+.join {
+  padding-top: 60px;
+}
+
+.join-socials {
+  display: flex;
+  justify-content: center;
 }
 
 .social-links-items {
@@ -227,14 +220,11 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-subscribe {
-  display: flex;
-}
-
 .subscribe-btn {
   margin: 0px;
   width: 200px;
   height: 50px;
+  margin-top: 20px;
   background: var(--navigation-link-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -252,8 +242,7 @@ img {
 /* .label-mail-footer {
 } */
 .input-mail-footer {
-  display: block;
-  width: 358px;
+  width: 100%;
   height: 50px;
   background: var(--hero-footer-background);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -272,14 +261,74 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-form {
-  margin-left: 93px;
+.join-contacts {
+  display: block;
+  text-align: center;
 }
 
-.icon-send {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
+@media screen and (min-width: 480px) {
+  .join-contacts {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .join {
+    padding-top: 0px;
+  }
+  .input-mail-footer {
+    width: 100%;
+  }
+  .title-join {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .join-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .join {
+    padding-top: 0px;
+  }
+  .input-mail-footer {
+    width: 450px;
+  }
+  .title-join {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .join-contacts {
+    display: flex;
+    align-items: center;
+  }
+  .join {
+    text-align: start;
+    padding-top: 0px;
+    margin-left: 70px;
+  }
+  .subscribe-btn {
+    margin: 0px;
+  }
+  .input-mail-footer {
+    width: 358px;
+  }
+  .title-join {
+    margin-top: 0px;
+  }
+  .subscribe-form {
+    margin-top: 0;
+    text-align: start;
+    margin-left: 93px;
+  }
+  .footer-subscribe {
+    display: flex;
+  }
+  .footer-sub .footer {
+    align-items: center;
+  }
 }
 
 .btn-nav-portfolio {
