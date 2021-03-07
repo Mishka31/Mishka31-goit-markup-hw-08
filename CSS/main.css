@@ -1209,6 +1209,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
   border: 0px;
+  margin: 4px 4px;
   background: #f5f4fa;
   border-radius: 4px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1403,8 +1404,10 @@ img {
           transform: translateY(0%);
 }
 
-.each-card-mg {
-  margin-bottom: 0px;
+@media screen and (max-width: 480px) {
+  .each-card-mg {
+    margin-bottom: 30px;
+  }
 }
 
 .cards-of-porfolio-cont {
@@ -1798,7 +1801,7 @@ img {
   position: absolute;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  top: 50%;
+  top: 45%;
   left: 12px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

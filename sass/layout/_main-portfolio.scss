@@ -87,8 +87,11 @@
     transform: translateY(0%);
   }
 }
-.each-card-mg {
-  margin-bottom: 0px;
+
+@media screen and (max-width: 480px) {
+  .each-card-mg {
+    margin-bottom: 30px;
+  }
 }
 .cards-of-porfolio-cont {
   margin-top: 40px;
