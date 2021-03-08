@@ -133,10 +133,12 @@
   .navigation-list {
     display: flex;
     align-items: center;
-    width: 450px;
+    // width: 450px;
     justify-content: space-evenly;
     padding: 0px;
     margin-bottom: 0px;
+    margin-left: 88px;
+    // margin-right: 88px;
   }
   .mail-link-header {
     font-weight: 500;
@@ -288,22 +290,25 @@
   }
   .navigation-list {
     display: flex;
-    /* margin-left: 93px; */
+    // margin-left: 93px;
     padding: 0px;
     padding-left: 93px;
-    padding-top: 32px;
-    /* margin-top: 32px; */
+    // padding-top: 32px;
+    // /* margin-top: 32px; */
     margin: 0px;
   }
   .navigation-item {
     position: relative;
-    padding-bottom: 32px;
+    // padding-bottom: 32px;
+    align-items: center;
   }
   .navigation-item-middle {
     position: relative;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 32px;
+    align-items: center;
+    text-align: center;
   }
   .current {
     &:after {
