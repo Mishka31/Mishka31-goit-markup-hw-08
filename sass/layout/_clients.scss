@@ -39,16 +39,17 @@
   margin: 0px;
   margin-bottom: 50px;
   text-align: center;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
   font-style: normal;
-  line-height: 1.179;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 380px) {
   .clients {
     padding: 0px;
+    padding-bottom: 35px;
   }
   .svg-list-clients {
     display: block;
@@ -76,6 +77,10 @@
   }
 }
 @media screen and (min-width: 480px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 35px;
+  }
   .svg-list-clients {
     max-width: 470px;
     // margin-left: 10px;
@@ -102,16 +107,21 @@
     justify-items: center;
     flex-wrap: wrap;
   }
-  .title-clients {
-    margin-top: 105px;
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 35px;
   }
   .border-for-logo-clients {
     width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
+  .clients {
+    padding-bottom: 94px;
+  }
   .border-for-logo-clients {
     width: 170px;
+    margin-bottom: 0px;
   }
   .svg-list-clients {
     max-width: 1200px;

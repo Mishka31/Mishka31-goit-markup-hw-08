@@ -1,10 +1,9 @@
 .our-team {
   margin: 0px;
-  padding-top: 90px;
   padding-bottom: 15px;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 1.179;
+  font-size: 36px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
   text-align: center;
@@ -67,6 +66,11 @@
     background-color: var(--navigation-link-focus);
   }
 }
+.our-team-section {
+  padding-top: 60px;
+  padding-bottom: 35px;
+  background-color: #f5fafa;
+}
 .card-personal-container {
   justify-content: center;
 }
@@ -103,9 +107,7 @@
     margin-top: -30px;
     margin-bottom: 0px;
   }
-  .our-team {
-    padding-bottom: 45px;
-  }
+
   .card-personal-container {
     // justify-content: center;
     display: flex;
@@ -126,6 +128,11 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .our-team-section {
+    padding-top: 64px;
+    padding-bottom: 94px;
+    background-color: #f5fafa;
+  }
   .card-personal {
     margin-right: auto;
     margin-left: auto;
@@ -144,7 +151,6 @@
     width: 270px;
   }
   .our-team {
-    padding-top: 94px;
     padding-bottom: 50px;
   }
   .card-personal-item {

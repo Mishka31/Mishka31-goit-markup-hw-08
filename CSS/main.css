@@ -140,6 +140,10 @@ img {
   border-radius: 4px;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .burger-bnt,
 .mob-close-bnt {
   background-color: transparent;
@@ -351,6 +355,27 @@ img {
     width: 10px;
     height: 14px;
     margin-right: 8px;
+  }
+  .navigation-link {
+    position: relative;
+    padding: 32px 0;
+  }
+  .navigation-item-middle {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 32px 0;
+  }
+  .current:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--navigation-link-focus);
+    border-radius: 2px;
   }
 }
 
@@ -621,6 +646,7 @@ img {
 
 .blocks-of-competence {
   padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -648,6 +674,7 @@ img {
 @media screen and (min-width: 1200px) {
   .blocks-of-competence {
     padding-top: 94px;
+    padding-bottom: 0;
   }
   .background-for-svg {
     max-width: 270px;
@@ -662,8 +689,7 @@ img {
 
 .we-doing-section {
   display: none;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 64px;
 }
 
 .img-we-doing {
@@ -978,6 +1004,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: start;
   }
   .join {
     text-align: start;
@@ -1012,11 +1039,10 @@ img {
 
 .our-team {
   margin: 0px;
-  padding-top: 90px;
   padding-bottom: 15px;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 1.179;
+  font-size: 36px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--mostly-used-color);
   text-align: center;
@@ -1092,6 +1118,12 @@ img {
   background-color: var(--navigation-link-focus);
 }
 
+.our-team-section {
+  padding-top: 60px;
+  padding-bottom: 35px;
+  background-color: #f5fafa;
+}
+
 .card-personal-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1137,9 +1169,6 @@ img {
     margin-top: -30px;
     margin-bottom: 0px;
   }
-  .our-team {
-    padding-bottom: 45px;
-  }
   .card-personal-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1162,6 +1191,11 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .our-team-section {
+    padding-top: 64px;
+    padding-bottom: 94px;
+    background-color: #f5fafa;
+  }
   .card-personal {
     margin-right: auto;
     margin-left: auto;
@@ -1188,7 +1222,6 @@ img {
     width: 270px;
   }
   .our-team {
-    padding-top: 94px;
     padding-bottom: 50px;
   }
   .card-personal-item {
@@ -1534,16 +1567,17 @@ img {
   margin: 0px;
   margin-bottom: 50px;
   text-align: center;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
   font-style: normal;
-  line-height: 1.179;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 380px) {
   .clients {
     padding: 0px;
+    padding-bottom: 35px;
   }
   .svg-list-clients {
     display: block;
@@ -1578,6 +1612,10 @@ img {
 }
 
 @media screen and (min-width: 480px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 35px;
+  }
   .svg-list-clients {
     max-width: 470px;
     -webkit-box-pack: space-evenly;
@@ -1609,8 +1647,9 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .title-clients {
-    margin-top: 105px;
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 35px;
   }
   .border-for-logo-clients {
     width: 226px;
@@ -1618,8 +1657,12 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .clients {
+    padding-bottom: 94px;
+  }
   .border-for-logo-clients {
     width: 170px;
+    margin-bottom: 0px;
   }
   .svg-list-clients {
     max-width: 1200px;

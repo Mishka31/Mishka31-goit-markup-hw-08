@@ -40,6 +40,7 @@
 }
 .blocks-of-competence {
   padding-top: 60px;
+  padding-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .block-items {
@@ -64,6 +65,7 @@
 @media screen and (min-width: 1200px) {
   .blocks-of-competence {
     padding-top: 94px;
+    padding-bottom: 0;
   }
   .background-for-svg {
     max-width: 270px;
