@@ -151,12 +151,10 @@
 
 @media screen and (min-width: 480px) {
   .join-contacts {
-    // display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .join {
-    // align-items: center;
     padding-top: 0px;
   }
   .input-mail-footer {
